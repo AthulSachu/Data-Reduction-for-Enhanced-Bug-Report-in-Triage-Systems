@@ -1,0 +1,254 @@
+body {
+    font-family: poppins, sans-serif;
+}
+
+/* div.Boxshadow {
+    box-shadow: 10px 9px 24px -7px rgba(0, 0, 0, 0.6);
+    transition: opacity 0.3s ease-in-out;
+}
+
+div.Boxshadow:hover {
+    box-shadow: 10px 9px 24px 0px rgba(0, 0, 0, 0.6);
+    transition: all 0.4s ease-in-out;
+}
+
+div#signin {
+    border: 2px solid rgba(28, 110, 164, 0.46);
+    border-radius: 15px;
+    margin: auto;
+} */
+
+a {
+    color: #111;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #111;
+}
+
+.navbar-nav a:after,
+.navbar-nav a:before {
+    transition: all .5s;
+}
+
+.navbar-nav a:hover {
+    color: #555;
+}
+
+.navbar-nav a {
+    position: relative;
+    margin-right: 20px;
+}
+
+.navbar-nav a:after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 0%;
+    content: '.';
+    color: transparent;
+    background: #FFC700;
+    height: 1px;
+}
+
+.navbar-nav a:hover:after {
+    width: 100%;
+}
+
+.hero {
+    width: 40%;
+    margin: 5.75em 2em;
+}
+
+
+.hero-img1 {
+    background: linear-gradient(rgb(0, 0, 0, 0.3), rgb(0, 0, 0, 0.3)), url("../assets/front.jpg");
+    width: 100%;
+}
+
+.hero-img2 {
+    background: linear-gradient(rgb(0, 0, 0, 0.3), rgb(0, 0, 0, 0.3)), url("../assets/emo.jpg");
+    width: 60%;
+}
+
+.hero-img1,
+.hero-img2 {
+    height: 100vh;
+    /* width: 100%; */
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
+
+#he1 {
+    font-size: 3.5rem;
+    line-height: 1.2em;
+}
+
+#he {
+    padding-top: 2em;
+    text-align: center;
+}
+
+#he::after {
+    border-bottom: 5px solid #111;
+    display: block;
+    margin: 0 auto;
+    content: " ";
+    width: 6%;
+    position: relative;
+    top: 5px;
+}
+
+.hero button,
+.RegButton {
+    font-family: poppins, sans-serif;
+    display: inline-flex;
+    padding: 0.7em;
+    font-weight: 700;
+    font-size: 15px;
+    color: none;
+    background: #FFC700;
+    border: none;
+    outline: none;
+    border-radius: 0.5em;
+    height: 45px;
+    cursor: pointer;
+}
+
+.hero .button2 {
+    position: relative;
+    left: 1.5em;
+    color: #111;
+    background: none;
+    transition: ease-in-out all 500ms;
+}
+
+.button2:hover {
+    color: #111;
+    background: #FFC700;
+}
+
+.button1 {
+    font-family: poppins, sans-serif;
+    display: inline-flex;
+    padding: 0.7em;
+    font-weight: 700;
+    font-size: 15px;
+    color: none;
+    background: #FFC700;
+    border: none;
+    outline: none;
+    border-radius: 0.5em;
+    height: 45px;
+    cursor: pointer;
+}
+
+.login-form {
+    width: 24%;
+    height: 55%;
+    background: radial-gradient(circle at 50% 50%, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    position: absolute;
+    top: 10em;
+    left: 970px;
+    backdrop-filter: blur(5px);
+    border-radius: 2em;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+    padding: 25px;
+    text-align: center;
+    color: #FFC700;
+}
+
+.login-form h1 {
+    font-size: 2em;
+}
+
+.login-form input {
+    margin-top: 2em;
+
+}
+
+.login-form input {
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 3px solid #FFC700;
+    color: #FFC700;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+.login-form button {
+    margin-top: 3em;
+    width: 25%;
+    justify-content: center;
+}
+
+.reg {
+    font-size: 13px;
+    margin-top: 2em;
+}
+
+#t1 {
+    border-collapse: separate;
+    border-spacing: 0 0.7em;
+    color: #111;
+}
+
+input,
+select {
+    background: transparent;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 3px solid #111;
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: #111;
+}
+
+.workflow-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-left: 1em;
+}
+
+.workflow-section {
+    padding: 10px;
+    vertical-align: top;
+}
+
+
+.workflow-title {
+    font-weight: bold;
+    color: #FFC700;
+    font-size: 1.2em;
+    font-size: 2em;
+}
+
+.workflow-links {
+    list-style: circle;
+    color: #FFC700;
+}
+
+.workflow-links li {
+    margin-bottom: 5px;
+    margin-top: 2em;
+}
+
+.workflow-links a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.workflow-links a:hover {
+    text-decoration: none;
+    color: #fff;
+}

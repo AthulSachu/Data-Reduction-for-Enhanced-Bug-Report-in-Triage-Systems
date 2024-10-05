@@ -1,0 +1,99 @@
+body {
+    font-family: poppins, sans-serif;
+}
+
+#side_nav {
+    background: #000;
+    min-width: 250px;
+    max-width: 250px;
+    border-right: 3px solid #FFC700;
+    transition: all 0.3s;
+}
+
+.content {
+    min-height: 100vh;
+    width: 100%;
+}
+
+hr.h-color {
+    background: #FFC700;
+}
+
+.sidebar li.active {
+    background: #FFC700;
+    border-radius: 8px;
+}
+
+.sidebar li.active a,
+.sidebar li.active a:hover {
+    color: #000;
+}
+
+.sidebar li a {
+    color: #fff;
+}
+
+@media(max-width: 767px) {
+    #side_nav {
+        margin-left: -250px;
+        position: absolute;
+        min-height: 100vh;
+        z-index: 1;
+
+    }
+
+    #side_nav.active {
+        margin-left: 0;
+    }
+}
+
+.navbar {
+    background-color: #000;
+}
+
+.log {
+    margin-top: 22em;
+}
+
+td,
+th {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.thdark {
+    background-color: #111;
+    color: #FFC700;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 0 0.7em;
+}
+
+input,
+select {
+    background: transparent;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 3px solid #FFC700;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+.RegButton,
+.button1 {
+    font-family: poppins, sans-serif;
+    display: inline-flex;
+    padding: 0.7em;
+    font-weight: 700;
+    font-size: 15px;
+    color: none;
+    background: #FFC700;
+    border: none;
+    outline: none;
+    border-radius: 0.5em;
+    height: 45px;
+    cursor: pointer;
+}
